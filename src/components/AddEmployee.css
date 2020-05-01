@@ -1,0 +1,69 @@
+.addEmployee {
+    display: flex;
+    flex-flow: column;
+}
+
+.addEmployeeDialog{
+    width: 50%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+
+input {
+  font: caption;
+}
+
+input {
+  padding: 0.5em;
+  margin-bottom: 5px;
+  border: 1px solid #dddddd;
+  /* background-color: #fbbfcd; */
+}
+
+
+button,
+.button,
+input[type='submit'] {
+  background-color: #ccc;
+  border: none;
+  color: #e10d3d;;
+  padding: 0.5em;
+  margin-top: 10px;
+  transition: all 0.2s;
+}
+
+button:hover,
+.button:hover,
+input[type='submit']:hover {
+  background-color: #ccc;
+}
+
+button:active,
+.button:active,
+input[type='submit']:active {
+  background-color: #f4466e;
+}
+
+button.full-width,
+.button.full-width,
+input[type='submit'].full-width {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.close{
+    width: 30px;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    height: 20px;
+    float: right;
+}
+
+.errorMsg {
+  color: #cc0000;
+  /* margin-bottom: 12px; */
+  text-align: left;
+  font-size: 12px;
+}
