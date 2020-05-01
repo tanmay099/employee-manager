@@ -69,7 +69,6 @@ const AddEmployee = React.memo(({ openDialog, onSubmit, togglePopup }) => {
       </label>
       <form className="addEmployee" onSubmit={handleChange}>
         <input
-          className="NewGrudge-input"
           placeholder="Employee ID"
           type="text"
           value={employeeId}
@@ -77,7 +76,6 @@ const AddEmployee = React.memo(({ openDialog, onSubmit, togglePopup }) => {
         />
         <div className="errorMsg">{error.employeeId}</div>
         <input
-          className="NewGrudge-input"
           placeholder="Employee Name"
           type="text"
           value={name}
@@ -85,7 +83,6 @@ const AddEmployee = React.memo(({ openDialog, onSubmit, togglePopup }) => {
         />
         <div className="errorMsg">{error.name}</div>
         <input
-          className="NewGrudge-input"
           placeholder="Email"
           type="email"
           value={emailId}
@@ -93,7 +90,6 @@ const AddEmployee = React.memo(({ openDialog, onSubmit, togglePopup }) => {
         />
         <div className="errorMsg">{error.emailId}</div>
         <input
-          className="NewGrudge-input"
           placeholder="Date of Joining"
           type="date"
           value={doj}
@@ -101,7 +97,6 @@ const AddEmployee = React.memo(({ openDialog, onSubmit, togglePopup }) => {
         />
         <div className="errorMsg">{error.doj}</div>
         <input
-          className="NewGrudge-input"
           placeholder="Department"
           type="text"
           value={department}
@@ -109,7 +104,7 @@ const AddEmployee = React.memo(({ openDialog, onSubmit, togglePopup }) => {
         />
         <div className="errorMsg">{error.department}</div>
 
-        <input className="NewGrudge-submit button" type="submit" />
+        <input className="button" type="submit" />
       </form>
     </dialog>
   );
